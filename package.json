@@ -1,0 +1,19 @@
+{
+  "name": "virtual-pet",
+  "version": "1.0.0",
+  "description": "Tamagotchi style virtual pet to bring some 90's flair into your life. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wallace-GS/virtual-pet.git"
+  },
+  "author": "Wallace Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wallace-GS/virtual-pet/issues"
+  },
+  "homepage": "https://github.com/Wallace-GS/virtual-pet#readme"
+}
