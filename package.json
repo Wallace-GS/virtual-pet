@@ -4,6 +4,9 @@
   "description": "Tamagotchi style virtual pet to bring some 90's flair into your life. ",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint --ignore-path ./.gitignore --fix \"./**/*.{js,ts}\"",
+    "lint:check": "eslint --ignore-path ./.gitignore --quiet \"./**/*.{js,ts}\"",
+    "start": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/Wallace-GS/virtual-pet/issues"
   },
-  "homepage": "https://github.com/Wallace-GS/virtual-pet#readme"
+  "homepage": "https://github.com/Wallace-GS/virtual-pet#readme",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5"
+  }
 }
